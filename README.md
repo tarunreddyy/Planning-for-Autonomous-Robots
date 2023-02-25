@@ -2,7 +2,7 @@
 
 This repository contains the code and data for the Planning for Autonomous Robots course (ENPM661) at the University of Maryland, College Park. The code is written in Python and uses various libraries such as NumPy, Matplotlib, and OpenCV.
 
-## Projects:
+## Projects
 
 - BFS algorithm: This program solves an 8-Puzzle game using Breadth First Search (BFS) algorithm.
 
