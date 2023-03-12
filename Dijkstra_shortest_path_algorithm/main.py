@@ -4,7 +4,6 @@ import math
 import time
 from tkinter import messagebox, Tk
 from dijkstra import Dijkstra
-import cv2
 
 # Initialize pygame
 pygame.init()
@@ -39,9 +38,6 @@ LIGHT_GRAY = (100, 100, 100)
 YELLOW = (255, 255, 0)
 
 
-#########################################################
-# Draw shapes and grid
-#########################################################
 def draw_shapes():
     screen.fill(WHITE)
 
@@ -136,6 +132,7 @@ def main():
             messagebox.showinfo("Try Again!")
             continue
         else:
+            print(f"Start node: {start_node} and End node: {end_node}")
             dijkstra = Dijkstra(ROWS, COLS, MAP)
             explored,path = dijkstra.explore(start_node, end_node)
             # print("Path:", path)

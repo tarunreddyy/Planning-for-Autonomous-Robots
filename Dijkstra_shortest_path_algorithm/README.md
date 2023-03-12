@@ -46,6 +46,8 @@ The "main.py" file imports the dijkstra class and retrieves the produced path as
 2.  Run the code `main.py` and user is prompted by tkinter window to select start and end node.
 3.  Close the prompt and select the start and end nodes.
 4.  The explored nodes are animated and the final path is plotted.
+5.  The source code can also be cloned from github repositiory. To clone the repository: git clone https://github.com/tarunreddyy/Planning-for-Autonomous-Robots.git
+6.  Navigate to the "Dijkstra_Shortest_Path_Algorithm" directory and follow the instructions.
 
 
 ## Output
