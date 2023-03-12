@@ -21,7 +21,6 @@ pygame.display.set_caption("Dijkstra Algorithm Simulation")
 # Define the number of rows and columns in the map
 ROWS, COLS = WINDOW_HEIGHT // CELL_SIZE, WINDOW_WIDTH // CELL_SIZE
 
-
 BOX_WIDTH = WINDOW_WIDTH // COLS
 BOX_HEIGHT = WINDOW_HEIGHT // ROWS
 
@@ -99,7 +98,6 @@ def select_box(screen):
             if event.type == pygame.MOUSEBUTTONDOWN:
                 # Get the mouse point location
                 mouse_x, mouse_y = pygame.mouse.get_pos()
-
                 # Turn the box blue and return the location
                 box_col = mouse_x // CELL_SIZE
                 box_row = mouse_y // CELL_SIZE
