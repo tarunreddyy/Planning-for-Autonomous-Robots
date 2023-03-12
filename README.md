@@ -4,10 +4,14 @@ This repository contains the code and data for the Planning for Autonomous Robot
 
 ## Projects
 
-- BFS algorithm: This program solves an 8-Puzzle game using Breadth First Search (BFS) algorithm.
+- BFS_algorithm: This program solves an 8-Puzzle game using Breadth First Search (BFS) algorithm.
+- Dijkstra_shortest_path_algorithm: This program visualizes the Dijkstra algorithm using pygame.
 
 ## Dependencies
 - NumPy
+- tkinter
+- pygame
+- heapq
 
 ## Usage
 Clone the repository: git clone https://github.com/tarunreddyy/Planning-for-Autonomous-Robots.git
